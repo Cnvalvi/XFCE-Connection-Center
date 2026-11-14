@@ -15,7 +15,9 @@ Designed for Android tablets running Linux desktop environments through Termux a
 - Background status collection
 - Last update indicator
 - XFCE Applications Menu integration
+## Dashboard Preview
 
+![XFCE Connection Centre Dashboard](main-dashboard.png)
 The application monitors connectivity. It does not directly enable or disable Android radios.
 
 ## Requirements
