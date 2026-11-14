@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=XFCE Connection Centre
+GenericName=Connectivity Dashboard
+Comment=Android and Linux connectivity dashboard
+Exec=launch.sh
+Icon=icon.svg
+Terminal=false
+StartupNotify=true
+Categories=Settings;System;
+Keywords=WiFi;Bluetooth;Ethernet;Network;Android;

@@ -6,99 +6,111 @@ Designed for Android tablets running Linux desktop environments through Termux a
 
 ## Features
 
-- **Wi-Fi:** Displays wireless network status and available connection information.
-- **Bluetooth:** Displays Bluetooth radio and device information when available.
-- **Ethernet:** Detects wired network interfaces.
-- **Airplane Mode:** Displays airplane mode status when Android settings access is available.
-- **Open Settings:** Opens the corresponding Android settings screen.
-- **Refresh Status:** Updates all connectivity information.
-- **Last Update:** Displays the most recent status refresh time.
-- **Background Refresh:** Collects status information in a background thread to keep the GUI responsive.
+- Wi-Fi status monitoring
+- Bluetooth status monitoring
+- Ethernet interface detection
+- Airplane Mode status
+- Android Settings shortcuts
+- Manual status refresh
+- Background status collection
+- Last update indicator
+- XFCE Applications Menu integration
 
-## Screenshots
-
-Screenshots will be added in a future release.
+The application monitors connectivity. It does not directly enable or disable Android radios.
 
 ## Requirements
 
 - Python 3
 - Tkinter
-- Linux desktop environment with an active graphical display (X11)
+- XFCE or another X11 desktop environment
 - Android / Termux / Proot environment
-- Android Activity Manager (`am`) for opening Android settings
 
-Optional system utilities:
+Optional system commands:
 
-- `ip` or `ifconfig`
-- `bluetoothctl`
-- `termux-wifi-connectioninfo`
-- Android `settings` command
+- ip or ifconfig
+- bluetoothctl
+- termux-wifi-connectioninfo
+- Android am and settings
 
-No third-party Python packages are currently required.
+No third-party Python packages are required.
 
 ## Installation
 
-Clone the repository:
+Clone using HTTPS:
 
 ```bash
-git clone git@github.com:Cnvalvi/XFCE-Connection-Center.git
-```
-
-Enter the project directory:
-
-```bash
+git clone https://github.com/Cnvalvi/XFCE-Connection-Center.git
 cd XFCE-Connection-Center
 ```
 
-Install Tkinter if it is missing (Debian/Ubuntu):
+Or clone using SSH:
+
+```bash
+git clone git@github.com:Cnvalvi/XFCE-Connection-Center.git
+cd XFCE-Connection-Center
+```
+
+On Debian or Ubuntu, install dependencies:
 
 ```bash
 sudo apt update
 sudo apt install python3 python3-tk
 ```
 
-Run the application:
+Install the application:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+Open XFCE Applications Menu and find XFCE Connection Centre.
+
+## Run Without Installing
 
 ```bash
 python3 connection_centre.py
 ```
 
-Make sure your Linux graphical environment and DISPLAY are available before launching the application.
+## Uninstallation
 
-## How It Works
+From the project directory:
 
-The application uses Python standard libraries, Linux network interfaces and available Android system commands to collect connectivity information.
+```bash
+chmod +x uninstall.sh
+./uninstall.sh
+```
 
-Android system access depends on the permissions and capabilities available in the Termux/Proot environment.
-
-The Open Settings buttons launch Android settings activities when the Android Activity Manager is accessible.
-
-This application monitors connectivity status. It does not directly enable or disable Wi-Fi, Bluetooth or airplane mode.
+Uninstallation removes the installed application and menu launcher. It does not delete the cloned project directory.
 
 ## Project Structure
 
 ```text
 XFCE-Connection-Center/
 ├── connection_centre.py
+├── install.sh
+├── uninstall.sh
+├── launch.sh
+├── xfce-connection-centre.desktop
+├── icon.svg
 ├── README.md
 ├── LICENSE
-├── .gitignore
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 
 ## Platform
 
-Developed and tested in an Android tablet Linux desktop environment.
+Developed for Android-based Linux desktop environments using Termux, Proot and XFCE.
 
-Hardware and software compatibility may vary across devices and Android versions.
+Compatibility depends on Android permissions, available system commands and desktop environment configuration.
 
 ## Developer
 
-**Cnvalvi**
+Cnvalvi
 
-GitHub: https://github.com/Cnvalvi
+https://github.com/Cnvalvi
 
 ## License
 
-This project is licensed under the MIT License.
-See the LICENSE file for details.
+MIT License. See LICENSE.
