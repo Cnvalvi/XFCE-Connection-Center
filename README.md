@@ -10,11 +10,6 @@ Designed for Android tablets running Linux desktop environments through Termux a
 - Bluetooth status monitoring
 - Ethernet interface detection
 - Airplane Mode status
-- Android Settings shortcuts
-- Manual status refresh
-- Background status collection
-- Last update indicator
-- XFCE Applications Menu integration
 ## Dashboard Preview
 
 ![XFCE Connection Centre Dashboard](main-dashboard.png)
