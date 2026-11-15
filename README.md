@@ -43,10 +43,10 @@ Explain what the application actually does.
 ![Main Dashboard](./main-dashboard.png)
 
 ### 2. Connection Centre - View 1
-![Connection Centre View 1](./123.jpg)
+![Connection Centre View 1](./123.png)
 
 ### 3. Connection Centre - View 2
-![Connection Centre View 2](./1234.jpg)
+![Connection Centre View 2](./1234.png)
 
 ---
 
