@@ -42,10 +42,10 @@ Explain what the application actually does.
 ### 1. Main Dashboard
 ![Main Dashboard](./main-dashboard.png)
 
-### 2. Termux environment- View 1
+### 2. Termux environment
 ![Connection Centre View 1](./123.png)
 
-### 3. Connection Centre - View 2
+### 3. All Applicant View
 ![Connection Centre View 2](./1234.png)
 ---
 
