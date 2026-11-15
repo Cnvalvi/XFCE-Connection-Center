@@ -36,16 +36,17 @@ Explain what the application actually does.
 ---
 
 # Screenshot
-## Screenshots
 
-### Main Dashboard
-![Main Dashboard](main-dashboard.png)
+## Screenshots of the Application
 
-### Connection1
-![Connection1](connection1.jpg)
+### 1. Main Dashboard
+![Main Dashboard](./main-dashboard.png)
 
-### Connection2
-![Connection2](connection2.jpg)
+### 2. Connection Centre - View 1
+![Connection Centre View 1](./123.jpg)
+
+### 3. Connection Centre - View 2
+![Connection Centre View 2](./1234.jpg)
 
 ---
 
