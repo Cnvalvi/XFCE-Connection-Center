@@ -41,11 +41,11 @@ Explain what the application actually does.
 ### Main Dashboard
 ![Main Dashboard](main-dashboard.png)
 
-### Connection Centre - View 1
-![Connection Centre 1](connection1.jpg)
+### Connection1
+![Connection1](connection1.jpg)
 
-### Connection Centre - View 2
-![Connection Centre 2](connection2.jpg)
+### Connection2
+![Connection2](connection2.jpg)
 
 ---
 
