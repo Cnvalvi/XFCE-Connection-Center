@@ -47,7 +47,6 @@ Explain what the application actually does.
 
 ### 3. Connection Centre - View 2
 ![Connection Centre View 2](./1234.png)
-
 ---
 
 # Fresh Android Setup Guide
